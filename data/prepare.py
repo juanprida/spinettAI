@@ -7,7 +7,7 @@ import json
 import re
 
 # Get your token from https://docs.genius.com/
-TOKEN = "ip74NW_LMhcDqog4lDoEKHZwUGw_WfZ3mOw-kfCRSQk7CLs27xqQC1if7bN95lXu"
+TOKEN = # Your token here
 ARTISTS = [
     "Almendra",
     "Pescado Rabioso",
