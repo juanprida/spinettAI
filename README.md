@@ -42,6 +42,7 @@ En un contexto industrial, se suele utilizar un corpus de texto muy grande y div
 En la carpeta se encuentra el script ```tokenize_data.py``` que se encarga de tomar el archivo ```.json``` generado en la carpeta ```data``` y transformarlo en un set de input y output tokens.
 Esto se hace utilizando la librería ```tokenizers```, que nos permite crear un tokenizador a partir de un vocabulario y luego utilizarlo para codificar y decodificar texto.
 Para mas informacion sobre tokenizers, ver [aquí](https://huggingface.co/docs/tokenizers/python/latest/quicktour.html).
+
 Luego, en  ```model.py``` se encuentra la definición del modelo, en este caso un transformer del estilo decoder only, muy similar a GPT-2 o GPT-3, con la diferencia de que este modelo es mucho mas pequeño en terminos de cantidad de parámetros (embedding size, cantidad de capas, etc).
 
 Finalmente, en ```train.py``` se encuentra el código para entrenar el modelo.
