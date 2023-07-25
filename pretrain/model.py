@@ -1,6 +1,5 @@
 """
 Transformer model for pre-training. Decoder only.
-Adaptation from Karpathy's nanoGPT
 """
 from dataclasses import dataclass
 
