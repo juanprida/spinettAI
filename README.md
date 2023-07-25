@@ -15,7 +15,6 @@ Este es el resultado de entrenar a un pequeño transformer desde cero, solamente
 El repositorio contiene la siguiente estructura:
 
 ```
-.
 ├── README.md
 ├── data
 │   ├── prepare.py
